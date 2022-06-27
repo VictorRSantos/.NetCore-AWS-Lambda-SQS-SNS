@@ -1,0 +1,8 @@
+Tecnologia utilizada é 
+.NET Core
+Desenvolver Aplicações 
+Lambdas
+e vamos utilizar filas
+SQS e SNS
+Tabela de dados
+DynamoDB

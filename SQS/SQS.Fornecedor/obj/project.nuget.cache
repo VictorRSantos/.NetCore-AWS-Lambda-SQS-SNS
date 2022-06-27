@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RQ++/+uxjJGyiWDSwK/BaWXjpOGbX+jdWmjLjn0JKOloOJ0z/bkqphAkgUgEoaf4G3xUgncdxzJohgLxucO91Q==",
+  "success": true,
+  "projectFilePath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\SQS\\SQS.Fornecedor\\SQS.Fornecedor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Victor\\.nuget\\packages\\awssdk.core\\3.5.2.4\\awssdk.core.3.5.2.4.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\awssdk.sqs\\3.5.1.14\\awssdk.sqs.3.5.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

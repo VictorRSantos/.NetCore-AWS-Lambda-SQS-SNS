@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ROaox9e0eFZg8nRaWh1mxa8UfoCdh7js/spTKdt4YRWLfWzHds2V5rBU/YjrQpx1ZMWxBrwSFTeDzRntqP/17Q==",
+  "success": true,
+  "projectFilePath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Coletor\\Coletor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Victor\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\amazon.lambda.dynamodbevents\\1.2.0\\amazon.lambda.dynamodbevents.1.2.0.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\awssdk.core\\3.5.2.4\\awssdk.core.3.5.2.4.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\awssdk.dynamodbv2\\3.5.4.24\\awssdk.dynamodbv2.3.5.4.24.nupkg.sha512",
+    "C:\\Users\\Victor\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.6\\microsoft.netcore.app.crossgen2.win-x64.6.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\SQS.Fornecedor.exe
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\SQS.Fornecedor.deps.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\SQS.Fornecedor.runtimeconfig.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\SQS.Fornecedor.runtimeconfig.dev.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\SQS.Fornecedor.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\SQS.Fornecedor.pdb
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\bin\Debug\netcoreapp3.1\AWSSDK.SQS.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.csproj.AssemblyReference.cache
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.GeneratedMSBuildEditorConfig.editorconfig
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.AssemblyInfoInputs.cache
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.AssemblyInfo.cs
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.csproj.CoreCompileInputs.cache
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.csproj.CopyComplete
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.pdb
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\SQS\SQS.Fornecedor\obj\Debug\netcoreapp3.1\SQS.Fornecedor.genruntimeconfig.cache
