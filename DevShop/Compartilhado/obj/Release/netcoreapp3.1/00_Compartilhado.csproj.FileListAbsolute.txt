@@ -1,0 +1,13 @@
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\bin\Release\netcoreapp3.1\Compartilhado.deps.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\bin\Release\netcoreapp3.1\Compartilhado.runtimeconfig.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\bin\Release\netcoreapp3.1\Compartilhado.runtimeconfig.dev.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\bin\Release\netcoreapp3.1\Compartilhado.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\bin\Release\netcoreapp3.1\Compartilhado.pdb
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\00_Compartilhado.csproj.AssemblyReference.cache
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\00_Compartilhado.GeneratedMSBuildEditorConfig.editorconfig
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\00_Compartilhado.AssemblyInfoInputs.cache
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\00_Compartilhado.AssemblyInfo.cs
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\00_Compartilhado.csproj.CoreCompileInputs.cache
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\Compartilhado.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\Compartilhado.pdb
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Compartilhado\obj\Release\netcoreapp3.1\00_Compartilhado.genruntimeconfig.cache

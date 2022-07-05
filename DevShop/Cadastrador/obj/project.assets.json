@@ -87,6 +87,15 @@
           "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
         }
       },
+      "Amazon.Lambda.SQSEvents/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {}
+        }
+      },
       "AWSSDK.Core/3.5.2.4": {
         "type": "package",
         "compile": {
@@ -106,6 +115,18 @@
         },
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {}
+        }
+      },
+      "AWSSDK.SQS/3.5.1.14": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.2.4, 3.6.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/2.1.0": {
@@ -203,6 +224,15 @@
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Memory/4.5.0": {
         "type": "package",
         "compile": {
@@ -226,9 +256,12 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "AWSSDK.DynamoDBv2": "3.5.4.24",
+          "AWSSDK.SQS": "3.5.1.14",
           "Amazon.Lambda.Core": "1.2.0",
           "Amazon.Lambda.DynamoDBEvents": "1.2.0",
-          "Amazon.Lambda.Serialization.SystemTextJson": "2.1.0"
+          "Amazon.Lambda.SQSEvents": "2.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.1.0",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/Compartilhado.dll": {}
@@ -347,6 +380,21 @@
         "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
       ]
     },
+    "Amazon.Lambda.SQSEvents/2.1.0": {
+      "sha512": "a1xaCIuXDleJ8iRE3vHWWhtPqUiURmoQUS68INMEQmtfHr4wTz837TQZONo4cyubv5sZj78DDrYessZEzgFRGQ==",
+      "type": "package",
+      "path": "amazon.lambda.sqsevents/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.sqsevents.2.1.0.nupkg.sha512",
+        "amazon.lambda.sqsevents.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.xml",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.xml"
+      ]
+    },
     "AWSSDK.Core/3.5.2.4": {
       "sha512": "dm3hMqJieiySx1sVTtr+7r2BuAKQErySbU8t90uQ7tWpQCboHSigez8A5V4IuAEcAofkzMDXnKh3sIqV53iKzQ==",
       "type": "package",
@@ -401,6 +449,36 @@
         "lib/netstandard2.0/AWSSDK.DynamoDBv2.dll",
         "lib/netstandard2.0/AWSSDK.DynamoDBv2.pdb",
         "lib/netstandard2.0/AWSSDK.DynamoDBv2.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SQS/3.5.1.14": {
+      "sha512": "zEzSTx4NhqTnJR6iQaJ6k3/3NCP7HR8Weae4HuRrQoAIcZFCD+o1+wsPs29edcC12zQg6KS3Noc4Mv8F/O66eg==",
+      "type": "package",
+      "path": "awssdk.sqs/3.5.1.14",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "awssdk.sqs.3.5.1.14.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "lib/net35/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.pdb",
+        "lib/net35/AWSSDK.SQS.xml",
+        "lib/net45/AWSSDK.SQS.dll",
+        "lib/net45/AWSSDK.SQS.pdb",
+        "lib/net45/AWSSDK.SQS.xml",
+        "lib/netcoreapp3.1/AWSSDK.SQS.dll",
+        "lib/netcoreapp3.1/AWSSDK.SQS.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SQS.xml",
+        "lib/netstandard1.3/AWSSDK.SQS.dll",
+        "lib/netstandard1.3/AWSSDK.SQS.pdb",
+        "lib/netstandard1.3/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.pdb",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -509,6 +587,33 @@
         "microsoft.extensions.primitives.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Memory/4.5.0": {
       "sha512": "m0psCSpUxTGfvwyO0i03ajXVhgBqyXlibXz0Mo1dtKGjaHrXFLnuQ8rNBTmWRqbfRjr4eC6Wah4X5FfuFDu5og==",
       "type": "package",
@@ -577,8 +682,8 @@
     },
     "Compartilhado/1.0.0": {
       "type": "project",
-      "path": "../Compartilhado/Compartilhado.csproj",
-      "msbuildProject": "../Compartilhado/Compartilhado.csproj"
+      "path": "../Compartilhado/00_Compartilhado.csproj",
+      "msbuildProject": "../Compartilhado/00_Compartilhado.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -594,9 +699,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Cadastrador\\Cadastrador.csproj",
+      "projectUniqueName": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Cadastrador\\01_Cadastrador.csproj",
       "projectName": "Cadastrador",
-      "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Cadastrador\\Cadastrador.csproj",
+      "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Cadastrador\\01_Cadastrador.csproj",
       "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
       "outputPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Cadastrador\\obj\\",
       "projectStyle": "PackageReference",
@@ -618,8 +723,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\Compartilhado.csproj": {
-              "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\Compartilhado.csproj"
+            "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\00_Compartilhado.csproj": {
+              "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\00_Compartilhado.csproj"
             }
           }
         }

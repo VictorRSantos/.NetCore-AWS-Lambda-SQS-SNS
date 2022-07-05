@@ -27,14 +27,18 @@ public class Function
                 {
 
                     await ProcessarValorPedido(pedido);
+                    await AmazonUtil.EnviarParaFila(EnumFilasSQS.pedido, pedido);
+                    context.Logger.LogLine($"Sucesso na coleta do pedido: '{pedido.Id}'");
+
+                  
                 }
                 catch (Exception ex)
                 {
-
+                    context.Logger.LogLine($"Erro: '{ex.Message}'");
                     pedido.JustificativaDeCancelamento = ex.Message;
                     pedido.Cancelado = true;
-
-                    // Adicionar à fila de falha
+                    await AmazonUtil.EnviarParaFila(EnumFilasSNS.falha, pedido);
+                                        
                 }
 
                 // Salvar o pedido
@@ -78,7 +82,7 @@ public class Function
         {
             TableName = "estoque",
             KeyConditionExpression = "Id = :v_id",
-            ExpressionAttributeValues = new Dictionary<string, AttributeValue> { { "v_id", new AttributeValue { S = id } } }
+            ExpressionAttributeValues = new Dictionary<string, AttributeValue> { { ":v_id", new AttributeValue { S = id } } }
         };
 
         var response = await client.QueryAsync(request);

@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\Compartilhado.csproj": {
-                "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\Compartilhado.csproj"
+              "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\00_Compartilhado.csproj": {
+                "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\00_Compartilhado.csproj"
               }
             }
           }
@@ -71,12 +71,12 @@
         }
       }
     },
-    "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\Compartilhado.csproj": {
+    "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\00_Compartilhado.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\Compartilhado.csproj",
-        "projectName": "Compartilhado",
-        "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\Compartilhado.csproj",
+        "projectUniqueName": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\00_Compartilhado.csproj",
+        "projectName": "00_Compartilhado",
+        "projectPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\00_Compartilhado.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
         "outputPath": "S:\\2022\\Cursos\\Youtube\\.NetCore-AWS Lambda-SQS-SNS\\DevShop\\Compartilhado\\obj\\",
         "projectStyle": "PackageReference",

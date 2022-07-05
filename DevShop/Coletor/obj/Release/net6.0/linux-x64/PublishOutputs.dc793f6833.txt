@@ -1,0 +1,13 @@
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Coletor.deps.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Coletor.runtimeconfig.json
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Coletor.pdb
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Compartilhado.pdb
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Amazon.Lambda.Core.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Amazon.Lambda.DynamoDBEvents.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\AWSSDK.Core.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\AWSSDK.DynamoDBv2.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\AWSSDK.SQS.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Newtonsoft.Json.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Compartilhado.dll
+S:\2022\Cursos\Youtube\.NetCore-AWS Lambda-SQS-SNS\DevShop\Coletor\bin\Release\net6.0\publish\Coletor.dll

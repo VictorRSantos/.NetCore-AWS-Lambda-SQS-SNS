@@ -44,6 +44,14 @@
           }
         }
       },
+      "Amazon.Lambda.SQSEvents/2.1.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.SQSEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "AWSSDK.Core/3.5.2.4": {
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {
@@ -63,12 +71,34 @@
           }
         }
       },
+      "AWSSDK.SQS/3.5.1.14": {
+        "dependencies": {
+          "AWSSDK.Core": "3.5.2.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.5.1.14"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
       "Compartilhado/1.0.0": {
         "dependencies": {
           "AWSSDK.DynamoDBv2": "3.5.4.24",
+          "AWSSDK.SQS": "3.5.1.14",
           "Amazon.Lambda.Core": "1.2.0",
           "Amazon.Lambda.DynamoDBEvents": "1.2.0",
-          "Amazon.Lambda.Serialization.SystemTextJson": "2.1.0"
+          "Amazon.Lambda.SQSEvents": "2.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.1.0",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "Compartilhado.dll": {}
@@ -103,6 +133,13 @@
       "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
       "hashPath": "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512"
     },
+    "Amazon.Lambda.SQSEvents/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a1xaCIuXDleJ8iRE3vHWWhtPqUiURmoQUS68INMEQmtfHr4wTz837TQZONo4cyubv5sZj78DDrYessZEzgFRGQ==",
+      "path": "amazon.lambda.sqsevents/2.1.0",
+      "hashPath": "amazon.lambda.sqsevents.2.1.0.nupkg.sha512"
+    },
     "AWSSDK.Core/3.5.2.4": {
       "type": "package",
       "serviceable": true,
@@ -116,6 +153,20 @@
       "sha512": "sha512-QVs/7fa0X77EjLzaTCoQFP+zuelEKbyYmVNhdWZooni9NqLAsQ0J+6TNGp7voK3GxCwRi5l2zLd/6/XaBY0Y7w==",
       "path": "awssdk.dynamodbv2/3.5.4.24",
       "hashPath": "awssdk.dynamodbv2.3.5.4.24.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.5.1.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zEzSTx4NhqTnJR6iQaJ6k3/3NCP7HR8Weae4HuRrQoAIcZFCD+o1+wsPs29edcC12zQg6KS3Noc4Mv8F/O66eg==",
+      "path": "awssdk.sqs/3.5.1.14",
+      "hashPath": "awssdk.sqs.3.5.1.14.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "Compartilhado/1.0.0": {
       "type": "project",
